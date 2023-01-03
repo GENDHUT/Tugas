@@ -1,0 +1,213 @@
+
+
+.button-primary {
+width: 133px;
+height: 40px;
+background-color: transparent;
+border: 1px solid rgba(255, 255, 255, 0.3);
+font-size: 1rem;
+font-weight: 500;
+color: #fff;
+}
+
+.button-secondary {
+width: 133px;
+height: 40px;
+background-color: #fff;
+color: var(--pr-color);
+font-size: 1rem;
+font-weight: 500;
+border: none;
+}
+
+.button-lg-secondary {
+width: 237px;
+height: 70px;
+background-color: #fff;
+color: var(--pr-color);
+border: none;
+font-size: 20px;
+font-weight: 700;
+}
+
+/* jumbotron */
+.banner {
+  margin-top:au;
+	height: 60vh;
+	background-image: url('../img/barang/IMG-20221101-WA0000.jpg');
+	background-size: cover;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  text-decoration-color: #fff;
+}
+.banner:after {
+	content:'';
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(10, 139, 245, 0.6);
+  padding-top: 6rem;
+}
+.banner h2 {
+	color: #fff;
+	z-index: 1;
+	padding: 20px 25px;
+	border:3px solid #fff;
+}
+section {
+	padding:50px 0;
+}
+section h3 {
+	text-align: center;
+	padding:20px 0;
+	color:#0f12e4;
+	margin-bottom: 25px;
+}
+
+
+.about,
+.service {
+
+	padding-bottom: 100px;
+	background-color: rgb(248, 248, 248);
+}
+.about p {
+	color: #666;
+	word-spacing: 2px;
+	line-height: 25px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.box {
+	color: #0f12e4;
+}
+.box:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+.box .col-4 {
+	width:25%;
+	padding:20px;
+	box-sizing: border-box;
+	text-align: center;
+	float: left;
+}
+.icon {
+	width:70px;
+	height:70px;
+	border:1px solid;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 70px;
+	font-size: 20px;
+	margin:0 auto;
+}
+.box .col-4 h4 {
+	margin:20px 0;
+}
+
+.countainer clients{
+	text-align: center;
+}
+
+
+
+/* My Profile Section */
+.orang-box {
+	position: relative;
+	background-color: #0c6efd;
+	border-radius: 10px;
+	height: 500px;
+	transform-style: preserve-3d;
+  }
+  
+  .orang-box::before {
+	content: 'MY';
+	position: absolute;
+	color: #fff;
+	font-size: 6em;
+	font-weight: bold;
+	font-style: italic;
+	top: 30px;
+	left: 50%;
+	transform: translate(-50%, 0);
+	opacity: 0;
+	transition: 0.5s;
+  }
+  
+  .orang-box:hover::before {
+	opacity: 0.2;
+  }
+  
+  .orang-box::after {
+	content: 'PROFILE';
+	position: absolute;
+	color: #fff;
+	font-size: 4.3em;
+	font-weight: bold;
+	font-style: italic;
+	top: 350px;
+	left: 50%;
+	transform: translate(-50%, 0);
+	opacity: 0;
+	transition: 0.5s;
+  }
+  
+  .orang-box:hover::after {
+	opacity: 0.2;
+  }
+  
+  .Orang-name {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	color: #fff;
+	text-align: center;
+	font-size: 2em;
+	opacity: 0;
+	transform: translate3d(0, 0, 50px);
+	transition: 0.5s;
+  }
+  
+  .orang-box:hover .keyboard-name {
+	top: 20px;
+	opacity: 1;
+  }
+  
+  .Orang-detail-button {
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translate3d(-50%, 0, 100px);
+	opacity: 0;
+	transition: 0.5s;
+	z-index: 3;
+  }
+  
+  .orang-box:hover .Orang-detail-button {
+	opacity: 1;
+	bottom: 20px;
+  }
+  
+  .Orang-img {
+	position: absolute;
+	top: 52%;
+	left: 50%;
+	transform: translate3d(-50%, -52%, 80px);
+	max-width: 350px;
+	transition: 0.5s;
+	z-index: 2;
+  }
+  
+  .orang-box:hover .keyboard-img {
+	transform: translate3d(-50%, -52%, 100px) rotate(5deg) scale(1.2);
+  }
+
+ 
